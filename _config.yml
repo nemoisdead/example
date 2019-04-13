@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title:               'title'
+tagline:             'tagline'
+description:         'description'
+url:                 'https://nemoisdead.github.io/example'
+baseurl:             '/example'
+paginate:            10
+
+# About/contact
+author:
+  name:              'author name'
+  url:               'www.author.ws'
+  email:             'email@author.ws'
+
+# Custom vars
+version:             1.0.0

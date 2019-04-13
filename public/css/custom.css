@@ -1,0 +1,28 @@
+html {
+	direction: rtl;
+}
+.post {
+	margin-bottom: 1em;
+}
+.post hr {
+	border: 0;
+	border-bottom: .5em solid #eee;
+	margin: 0;
+}
+.post:last-child hr {
+	border-bottom: 0;
+}
+
+.nodisplay {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+@media (min-width: 38em) {
+	.post {
+		font-size: 18px;
+	} 
+}
